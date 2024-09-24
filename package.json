@@ -1,0 +1,27 @@
+{
+  "name": "cypress-strcuctured",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write .",
+    "start": "npx cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/cypress": "^1.1.3",
+    "@types/node": "^22.5.4",
+    "cypress": "^13.14.2",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "mochawesome": "^7.1.3",
+    "mochawesome-report-generator": "^6.2.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "prettier": "^3.3.3",
+    "tsc": "^2.0.4"
+  }
+}
